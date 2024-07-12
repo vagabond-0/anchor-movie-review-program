@@ -1,0 +1,276 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/amalendum/.nvm/v0.8.28/bin/node',
+1 verbose cli   '/home/amalendum/.nvm/v0.8.28/bin/npm',
+1 verbose cli   'install' ]
+2 info using npm@1.2.30
+3 info using node@v0.8.28
+4 verbose read json /home/amalendum/current-project/solana/anchor-movie-review-program/package.json
+5 warn package.json @ No repository field.
+6 warn package.json @ No readme data.
+7 verbose readDependencies using package.json deps
+8 verbose install where, deps [ '/home/amalendum/current-project/solana/anchor-movie-review-program',
+8 verbose install   [ '@coral-xyz/anchor',
+8 verbose install     'chai',
+8 verbose install     'mocha',
+8 verbose install     'ts-mocha',
+8 verbose install     '@types/bn.js',
+8 verbose install     '@types/chai',
+8 verbose install     '@types/mocha',
+8 verbose install     'typescript',
+8 verbose install     'prettier' ] ]
+9 verbose from cache /home/amalendum/current-project/solana/anchor-movie-review-program/package.json
+10 info preinstall @
+11 verbose from cache /home/amalendum/current-project/solana/anchor-movie-review-program/package.json
+12 verbose readDependencies using package.json deps
+13 verbose cache add [ '@coral-xyz/anchor@^0.30.1', null ]
+14 verbose cache add name=undefined spec="@coral-xyz/anchor@^0.30.1" args=["@coral-xyz/anchor@^0.30.1",null]
+15 verbose parsed url { pathname: '@coral-xyz/anchor@^0.30.1',
+15 verbose parsed url   path: '@coral-xyz/anchor@^0.30.1',
+15 verbose parsed url   href: '@coral-xyz/anchor@^0.30.1' }
+16 verbose cache add name="" spec="coral-xyz/anchor@^0.30.1" args=["","coral-xyz/anchor@^0.30.1"]
+17 verbose parsed url { pathname: 'coral-xyz/anchor@^0.30.1',
+17 verbose parsed url   path: 'coral-xyz/anchor@^0.30.1',
+17 verbose parsed url   href: 'coral-xyz/anchor@^0.30.1' }
+18 verbose cache add name="coral-xyz/anchor" spec="^0.30.1" args=["coral-xyz/anchor","^0.30.1"]
+19 verbose parsed url { pathname: '^0.30.1', path: '^0.30.1', href: '^0.30.1' }
+20 verbose addNamed [ 'coral-xyz/anchor', '^0.30.1' ]
+21 verbose addNamed [ null, null ]
+22 verbose cache add [ 'chai@^4.3.4', null ]
+23 verbose cache add name=undefined spec="chai@^4.3.4" args=["chai@^4.3.4",null]
+24 verbose parsed url { pathname: 'chai@^4.3.4',
+24 verbose parsed url   path: 'chai@^4.3.4',
+24 verbose parsed url   href: 'chai@^4.3.4' }
+25 verbose cache add name="chai" spec="^4.3.4" args=["chai","^4.3.4"]
+26 verbose parsed url { pathname: '^4.3.4', path: '^4.3.4', href: '^4.3.4' }
+27 verbose addNamed [ 'chai', '^4.3.4' ]
+28 verbose addNamed [ null, null ]
+29 verbose cache add [ 'mocha@^9.0.3', null ]
+30 verbose cache add name=undefined spec="mocha@^9.0.3" args=["mocha@^9.0.3",null]
+31 verbose parsed url { pathname: 'mocha@^9.0.3',
+31 verbose parsed url   path: 'mocha@^9.0.3',
+31 verbose parsed url   href: 'mocha@^9.0.3' }
+32 verbose cache add name="mocha" spec="^9.0.3" args=["mocha","^9.0.3"]
+33 verbose parsed url { pathname: '^9.0.3', path: '^9.0.3', href: '^9.0.3' }
+34 verbose addNamed [ 'mocha', '^9.0.3' ]
+35 verbose addNamed [ null, null ]
+36 silly lockFile 566824d9-coral-xyz-anchor-0-30-1 coral-xyz/anchor@^0.30.1
+37 verbose lock coral-xyz/anchor@^0.30.1 /home/amalendum/.npm/566824d9-coral-xyz-anchor-0-30-1.lock
+38 silly lockFile cd09cb74-chai-4-3-4 chai@^4.3.4
+39 verbose lock chai@^4.3.4 /home/amalendum/.npm/cd09cb74-chai-4-3-4.lock
+40 silly lockFile 48e97ce8-mocha-9-0-3 mocha@^9.0.3
+41 verbose lock mocha@^9.0.3 /home/amalendum/.npm/48e97ce8-mocha-9-0-3.lock
+42 info addNameTag [ 'coral-xyz/anchor', '^0.30.1' ]
+43 info addNameTag [ 'chai', '^4.3.4' ]
+44 info addNameTag [ 'mocha', '^9.0.3' ]
+45 verbose url raw coral-xyz/anchor
+46 verbose url resolving [ 'https://registry.npmjs.org/', './coral-xyz/anchor' ]
+47 verbose url resolved https://registry.npmjs.org/coral-xyz/anchor
+48 info trying registry request attempt 1 at 15:36:07
+49 http GET https://registry.npmjs.org/coral-xyz/anchor
+50 verbose url raw chai
+51 verbose url resolving [ 'https://registry.npmjs.org/', './chai' ]
+52 verbose url resolved https://registry.npmjs.org/chai
+53 info trying registry request attempt 1 at 15:36:07
+54 http GET https://registry.npmjs.org/chai
+55 verbose url raw mocha
+56 verbose url resolving [ 'https://registry.npmjs.org/', './mocha' ]
+57 verbose url resolved https://registry.npmjs.org/mocha
+58 info trying registry request attempt 1 at 15:36:07
+59 http GET https://registry.npmjs.org/mocha
+60 verbose cache add [ 'ts-mocha@^10.0.0', null ]
+61 verbose cache add name=undefined spec="ts-mocha@^10.0.0" args=["ts-mocha@^10.0.0",null]
+62 verbose parsed url { pathname: 'ts-mocha@^10.0.0',
+62 verbose parsed url   path: 'ts-mocha@^10.0.0',
+62 verbose parsed url   href: 'ts-mocha@^10.0.0' }
+63 verbose cache add name="ts-mocha" spec="^10.0.0" args=["ts-mocha","^10.0.0"]
+64 verbose parsed url { pathname: '^10.0.0', path: '^10.0.0', href: '^10.0.0' }
+65 verbose addNamed [ 'ts-mocha', '^10.0.0' ]
+66 verbose addNamed [ null, null ]
+67 silly lockFile 939b0795-ts-mocha-10-0-0 ts-mocha@^10.0.0
+68 verbose lock ts-mocha@^10.0.0 /home/amalendum/.npm/939b0795-ts-mocha-10-0-0.lock
+69 verbose cache add [ '@types/bn.js@^5.1.0', null ]
+70 verbose cache add name=undefined spec="@types/bn.js@^5.1.0" args=["@types/bn.js@^5.1.0",null]
+71 verbose parsed url { pathname: '@types/bn.js@^5.1.0',
+71 verbose parsed url   path: '@types/bn.js@^5.1.0',
+71 verbose parsed url   href: '@types/bn.js@^5.1.0' }
+72 verbose cache add name="" spec="types/bn.js@^5.1.0" args=["","types/bn.js@^5.1.0"]
+73 verbose parsed url { pathname: 'types/bn.js@^5.1.0',
+73 verbose parsed url   path: 'types/bn.js@^5.1.0',
+73 verbose parsed url   href: 'types/bn.js@^5.1.0' }
+74 verbose cache add name="types/bn.js" spec="^5.1.0" args=["types/bn.js","^5.1.0"]
+75 verbose parsed url { pathname: '^5.1.0', path: '^5.1.0', href: '^5.1.0' }
+76 verbose addNamed [ 'types/bn.js', '^5.1.0' ]
+77 verbose addNamed [ null, null ]
+78 silly lockFile 60a9218f-types-bn-js-5-1-0 types/bn.js@^5.1.0
+79 verbose lock types/bn.js@^5.1.0 /home/amalendum/.npm/60a9218f-types-bn-js-5-1-0.lock
+80 verbose cache add [ '@types/chai@^4.3.0', null ]
+81 verbose cache add name=undefined spec="@types/chai@^4.3.0" args=["@types/chai@^4.3.0",null]
+82 verbose parsed url { pathname: '@types/chai@^4.3.0',
+82 verbose parsed url   path: '@types/chai@^4.3.0',
+82 verbose parsed url   href: '@types/chai@^4.3.0' }
+83 verbose cache add name="" spec="types/chai@^4.3.0" args=["","types/chai@^4.3.0"]
+84 verbose parsed url { pathname: 'types/chai@^4.3.0',
+84 verbose parsed url   path: 'types/chai@^4.3.0',
+84 verbose parsed url   href: 'types/chai@^4.3.0' }
+85 verbose cache add name="types/chai" spec="^4.3.0" args=["types/chai","^4.3.0"]
+86 verbose parsed url { pathname: '^4.3.0', path: '^4.3.0', href: '^4.3.0' }
+87 verbose addNamed [ 'types/chai', '^4.3.0' ]
+88 verbose addNamed [ null, null ]
+89 silly lockFile 2bb527ef-types-chai-4-3-0 types/chai@^4.3.0
+90 verbose lock types/chai@^4.3.0 /home/amalendum/.npm/2bb527ef-types-chai-4-3-0.lock
+91 verbose cache add [ '@types/mocha@^9.0.0', null ]
+92 verbose cache add name=undefined spec="@types/mocha@^9.0.0" args=["@types/mocha@^9.0.0",null]
+93 verbose parsed url { pathname: '@types/mocha@^9.0.0',
+93 verbose parsed url   path: '@types/mocha@^9.0.0',
+93 verbose parsed url   href: '@types/mocha@^9.0.0' }
+94 verbose cache add name="" spec="types/mocha@^9.0.0" args=["","types/mocha@^9.0.0"]
+95 verbose parsed url { pathname: 'types/mocha@^9.0.0',
+95 verbose parsed url   path: 'types/mocha@^9.0.0',
+95 verbose parsed url   href: 'types/mocha@^9.0.0' }
+96 verbose cache add name="types/mocha" spec="^9.0.0" args=["types/mocha","^9.0.0"]
+97 verbose parsed url { pathname: '^9.0.0', path: '^9.0.0', href: '^9.0.0' }
+98 verbose addNamed [ 'types/mocha', '^9.0.0' ]
+99 verbose addNamed [ null, null ]
+100 silly lockFile 9c3f8708-types-mocha-9-0-0 types/mocha@^9.0.0
+101 verbose lock types/mocha@^9.0.0 /home/amalendum/.npm/9c3f8708-types-mocha-9-0-0.lock
+102 verbose cache add [ 'typescript@^4.3.5', null ]
+103 verbose cache add name=undefined spec="typescript@^4.3.5" args=["typescript@^4.3.5",null]
+104 verbose parsed url { pathname: 'typescript@^4.3.5',
+104 verbose parsed url   path: 'typescript@^4.3.5',
+104 verbose parsed url   href: 'typescript@^4.3.5' }
+105 verbose cache add name="typescript" spec="^4.3.5" args=["typescript","^4.3.5"]
+106 verbose parsed url { pathname: '^4.3.5', path: '^4.3.5', href: '^4.3.5' }
+107 verbose addNamed [ 'typescript', '^4.3.5' ]
+108 verbose addNamed [ null, null ]
+109 silly lockFile af2f7ac5-typescript-4-3-5 typescript@^4.3.5
+110 verbose lock typescript@^4.3.5 /home/amalendum/.npm/af2f7ac5-typescript-4-3-5.lock
+111 verbose cache add [ 'prettier@^2.6.2', null ]
+112 verbose cache add name=undefined spec="prettier@^2.6.2" args=["prettier@^2.6.2",null]
+113 verbose parsed url { pathname: 'prettier@^2.6.2',
+113 verbose parsed url   path: 'prettier@^2.6.2',
+113 verbose parsed url   href: 'prettier@^2.6.2' }
+114 verbose cache add name="prettier" spec="^2.6.2" args=["prettier","^2.6.2"]
+115 verbose parsed url { pathname: '^2.6.2', path: '^2.6.2', href: '^2.6.2' }
+116 verbose addNamed [ 'prettier', '^2.6.2' ]
+117 verbose addNamed [ null, null ]
+118 silly lockFile a9526d9a-prettier-2-6-2 prettier@^2.6.2
+119 verbose lock prettier@^2.6.2 /home/amalendum/.npm/a9526d9a-prettier-2-6-2.lock
+120 info addNameTag [ 'ts-mocha', '^10.0.0' ]
+121 info addNameTag [ 'types/bn.js', '^5.1.0' ]
+122 info addNameTag [ 'types/chai', '^4.3.0' ]
+123 info addNameTag [ 'types/mocha', '^9.0.0' ]
+124 info addNameTag [ 'typescript', '^4.3.5' ]
+125 info addNameTag [ 'prettier', '^2.6.2' ]
+126 verbose url raw ts-mocha
+127 verbose url resolving [ 'https://registry.npmjs.org/', './ts-mocha' ]
+128 verbose url resolved https://registry.npmjs.org/ts-mocha
+129 info trying registry request attempt 1 at 15:36:07
+130 http GET https://registry.npmjs.org/ts-mocha
+131 verbose url raw types/bn.js
+132 verbose url resolving [ 'https://registry.npmjs.org/', './types/bn.js' ]
+133 verbose url resolved https://registry.npmjs.org/types/bn.js
+134 info trying registry request attempt 1 at 15:36:07
+135 http GET https://registry.npmjs.org/types/bn.js
+136 verbose url raw types/chai
+137 verbose url resolving [ 'https://registry.npmjs.org/', './types/chai' ]
+138 verbose url resolved https://registry.npmjs.org/types/chai
+139 info trying registry request attempt 1 at 15:36:07
+140 http GET https://registry.npmjs.org/types/chai
+141 verbose url raw types/mocha
+142 verbose url resolving [ 'https://registry.npmjs.org/', './types/mocha' ]
+143 verbose url resolved https://registry.npmjs.org/types/mocha
+144 info trying registry request attempt 1 at 15:36:07
+145 http GET https://registry.npmjs.org/types/mocha
+146 verbose url raw typescript
+147 verbose url resolving [ 'https://registry.npmjs.org/', './typescript' ]
+148 verbose url resolved https://registry.npmjs.org/typescript
+149 info trying registry request attempt 1 at 15:36:07
+150 http GET https://registry.npmjs.org/typescript
+151 verbose url raw prettier
+152 verbose url resolving [ 'https://registry.npmjs.org/', './prettier' ]
+153 verbose url resolved https://registry.npmjs.org/prettier
+154 info trying registry request attempt 1 at 15:36:07
+155 http GET https://registry.npmjs.org/prettier
+156 info retry will retry, error on last attempt: Error: 140116397112192:error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version:../deps/openssl/openssl/ssl/s23_clnt.c:658:
+157 info retry will retry, error on last attempt: Error: 140116397112192:error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version:../deps/openssl/openssl/ssl/s23_clnt.c:658:
+158 info retry will retry, error on last attempt: Error: 140116397112192:error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version:../deps/openssl/openssl/ssl/s23_clnt.c:658:
+159 info retry will retry, error on last attempt: Error: 140116397112192:error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version:../deps/openssl/openssl/ssl/s23_clnt.c:658:
+160 info retry will retry, error on last attempt: Error: 140116397112192:error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version:../deps/openssl/openssl/ssl/s23_clnt.c:658:
+161 info retry will retry, error on last attempt: Error: 140116397112192:error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version:../deps/openssl/openssl/ssl/s23_clnt.c:658:
+162 info retry will retry, error on last attempt: Error: 140116397112192:error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version:../deps/openssl/openssl/ssl/s23_clnt.c:658:
+163 info retry will retry, error on last attempt: Error: 140116397112192:error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version:../deps/openssl/openssl/ssl/s23_clnt.c:658:
+164 info retry will retry, error on last attempt: Error: 140116397112192:error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version:../deps/openssl/openssl/ssl/s23_clnt.c:658:
+165 info trying registry request attempt 2 at 15:36:17
+166 http GET https://registry.npmjs.org/ts-mocha
+167 info trying registry request attempt 2 at 15:36:17
+168 http GET https://registry.npmjs.org/mocha
+169 info trying registry request attempt 2 at 15:36:17
+170 http GET https://registry.npmjs.org/chai
+171 info trying registry request attempt 2 at 15:36:17
+172 http GET https://registry.npmjs.org/coral-xyz/anchor
+173 info trying registry request attempt 2 at 15:36:17
+174 http GET https://registry.npmjs.org/types/bn.js
+175 info trying registry request attempt 2 at 15:36:17
+176 http GET https://registry.npmjs.org/types/chai
+177 info trying registry request attempt 2 at 15:36:17
+178 http GET https://registry.npmjs.org/typescript
+179 info trying registry request attempt 2 at 15:36:17
+180 http GET https://registry.npmjs.org/types/mocha
+181 info trying registry request attempt 2 at 15:36:17
+182 http GET https://registry.npmjs.org/prettier
+183 info retry will retry, error on last attempt: Error: 140116397112192:error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version:../deps/openssl/openssl/ssl/s23_clnt.c:658:
+184 info retry will retry, error on last attempt: Error: 140116397112192:error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version:../deps/openssl/openssl/ssl/s23_clnt.c:658:
+185 info retry will retry, error on last attempt: Error: 140116397112192:error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version:../deps/openssl/openssl/ssl/s23_clnt.c:658:
+186 info retry will retry, error on last attempt: Error: 140116397112192:error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version:../deps/openssl/openssl/ssl/s23_clnt.c:658:
+187 info retry will retry, error on last attempt: Error: 140116397112192:error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version:../deps/openssl/openssl/ssl/s23_clnt.c:658:
+188 info retry will retry, error on last attempt: Error: 140116397112192:error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version:../deps/openssl/openssl/ssl/s23_clnt.c:658:
+189 info retry will retry, error on last attempt: Error: 140116397112192:error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version:../deps/openssl/openssl/ssl/s23_clnt.c:658:
+190 info retry will retry, error on last attempt: Error: 140116397112192:error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version:../deps/openssl/openssl/ssl/s23_clnt.c:658:
+191 info retry will retry, error on last attempt: Error: 140116397112192:error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version:../deps/openssl/openssl/ssl/s23_clnt.c:658:
+192 info trying registry request attempt 3 at 15:37:18
+193 http GET https://registry.npmjs.org/coral-xyz/anchor
+194 info trying registry request attempt 3 at 15:37:18
+195 http GET https://registry.npmjs.org/ts-mocha
+196 info trying registry request attempt 3 at 15:37:18
+197 http GET https://registry.npmjs.org/mocha
+198 info trying registry request attempt 3 at 15:37:18
+199 http GET https://registry.npmjs.org/chai
+200 info trying registry request attempt 3 at 15:37:18
+201 http GET https://registry.npmjs.org/types/bn.js
+202 info trying registry request attempt 3 at 15:37:18
+203 http GET https://registry.npmjs.org/types/chai
+204 info trying registry request attempt 3 at 15:37:18
+205 http GET https://registry.npmjs.org/types/mocha
+206 info trying registry request attempt 3 at 15:37:18
+207 http GET https://registry.npmjs.org/typescript
+208 info trying registry request attempt 3 at 15:37:18
+209 http GET https://registry.npmjs.org/prettier
+210 silly lockFile cd09cb74-chai-4-3-4 chai@^4.3.4
+211 silly lockFile cd09cb74-chai-4-3-4 chai@^4.3.4
+212 silly lockFile 566824d9-coral-xyz-anchor-0-30-1 coral-xyz/anchor@^0.30.1
+213 silly lockFile 566824d9-coral-xyz-anchor-0-30-1 coral-xyz/anchor@^0.30.1
+214 silly lockFile 48e97ce8-mocha-9-0-3 mocha@^9.0.3
+215 silly lockFile 48e97ce8-mocha-9-0-3 mocha@^9.0.3
+216 silly lockFile 939b0795-ts-mocha-10-0-0 ts-mocha@^10.0.0
+217 silly lockFile 939b0795-ts-mocha-10-0-0 ts-mocha@^10.0.0
+218 silly lockFile 60a9218f-types-bn-js-5-1-0 types/bn.js@^5.1.0
+219 silly lockFile 60a9218f-types-bn-js-5-1-0 types/bn.js@^5.1.0
+220 error Error: 140116397112192:error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version:../deps/openssl/openssl/ssl/s23_clnt.c:658:
+220 error
+220 error     at CleartextStream._puller (tls.js:670:24)
+220 error     at CleartextStream.CryptoStream._pull (tls.js:604:19)
+220 error     at SecurePair.cycle (tls.js:894:20)
+220 error     at EncryptedStream.CryptoStream.write (tls.js:285:13)
+220 error     at Socket.ondata (stream.js:38:26)
+220 error     at Socket.EventEmitter.emit (events.js:96:17)
+220 error     at TCP.onread (net.js:397:14)
+221 error If you need help, you may report this log at:
+221 error     <http://github.com/isaacs/npm/issues>
+221 error or email it to:
+221 error     <npm-@googlegroups.com>
+222 error System Linux 6.5.3-1-MANJARO
+223 error command "/home/amalendum/.nvm/v0.8.28/bin/node" "/home/amalendum/.nvm/v0.8.28/bin/npm" "install"
+224 error cwd /home/amalendum/current-project/solana/anchor-movie-review-program
+225 error node -v v0.8.28
+226 error npm -v 1.2.30
+227 verbose exit [ 1, true ]
